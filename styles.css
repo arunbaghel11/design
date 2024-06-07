@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(45deg, #333, #555);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: #ccc;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ccc;
+    transform: scale(1.1);
+}
+
+.section {
+    padding: 2rem 1rem;
+    text-align: center;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+#home {
+    background: url('https://images.pexels.com/photos/1470945/pexels-photo-1470945.jpeg?cs=srgb&dl=apartment-architecture-couch-1470945.jpg&fm=jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+}
+
+#home h1 {
+    margin-top: 150px;
+    font-size: 2.5rem;
+    transition: color 0.3s ease;
+}
+
+#home h1:hover {
+    color: #ddd;
+}
+
+#about {
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    color: #fff;
+}
+
+form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+form:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #333;
+}
+
+form button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(45deg, #333, #555);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+form button:hover {
+    background: linear-gradient(45deg, #555, #777);
+    transform: scale(1.05);
+}
+
+footer {
+    background: linear-gradient(45deg, #333, #555);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 1rem;
+    min-width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.footer-section:hover {
+    transform: translateY(-5px);
+}
+
+.footer-section h3 {
+    margin-bottom: 1rem;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    margin-bottom: 0.5rem;
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.footer-section img {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.footer-section img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    padding: 1rem 0;
+    background: #222;
+}
